@@ -1,0 +1,9 @@
+{
+  "name": "shieldride",
+  "scripts": {
+    "start": "concurrently \"cd server && node index.js\" \"cd client && PORT=3001 npm start\""
+  },
+  "dependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
